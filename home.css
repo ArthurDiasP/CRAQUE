@@ -23,18 +23,6 @@ body{
     background-color:#000;
 }
 
-
-.circle{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:#152349;
-    clip-path:circle(15% at bottom right)
-}
-
-
 .navigation{
     display:flex;
     align-items:center;
