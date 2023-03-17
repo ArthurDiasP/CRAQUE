@@ -1,142 +1,76 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de login</title>
-    <style>
-        
-        body{
-            font-family: Roboto;
-            background-color: black;
+<style>
+    /* adjust the font size for smaller screens */
+    @media screen and (max-width: 480px) {
+        h1 {
+            font-size: 24px;
         }
-            div{
-            background-color: #0f1629;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            padding: 35px;
-            border-radius: 20px;
-            color: #fff;
-           
+        input[type="name"],
+        input[type="email"] {
+            font-size: 16px;
         }
-        input{
-            padding: 16px;
-            border: none;
-            outline: none;
-            font-size: 15px;
-            width: 84%;
+        button {
+            font-size: 18px;
         }
-        button{
-            background-color: dodgerblue;
-            border: none;
-            padding: 15px;
-            width: 100%;
-            border-radius: 100px;
-            color: white;
-            font-size: 17px;
-            
+        p {
+            font-size: 14px;
         }
-        button:hover{
-            background-color: #e5132a;
-            cursor: pointer;
-        }
-      a{
-       color: #2a9bdd;
-      }
-
-      a:hover{
-        color: #e5132a;
-      }
-      
-      h1{
-        font-family: Roboto;
-        color: #2a9bdd;
-        text-align: center;
-      }
-
-
-
-@media (max-width:780px){
-  div{
-            background-color: #0f1629;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            padding: 85px;
-            border-radius: 20px;
-            color: #fff;
-            overflow: hidden;
-        }
-
-
-        input{
-          margin: 0 auto;
-            padding: 20px;
-            border: none;
-            outline: none;
-            font-size: 19px;
-            width: 180%;
-          transform: translate(-60px);
-        }
-        button{
-            background-color: dodgerblue;
-            border: none;
-            padding: 15px;
-            width: 100%;
-            color: white;
-            font-size: 17px;
-            margin: 0 auto;
-            position: center;
-  
-  
-            
-        }
-        button:hover{
-            background-color: #e5132a;
-            cursor: pointer;
-        }
-
-p{
-  transform: translate(0px, 20px);
-  text-align: center;
-  font-size: 18px;
-}
-
-      a{
-       color: #2a9bdd;
-       text-align: center;
-       font-size: 20px;
-      }
-
-      a:hover{
-        color: #e5132a;
-      }
-      
-      h1{
-        font-family: Roboto;
-        color: #2a9bdd;
-        text-align: center;
-      }
     }
 
+    /* center the form on the page */
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* style the form elements */
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    input[type="name"],
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    /* adjust the button alignment for smaller screens */
+    @media screen and (max-width: 480px) {
+        button {
+            display: block;
+            margin: 0 auto;
+        }
+    }
 </style>
 
-</head>
-<body>
-    <form action="adplay.html">
+<form action="adplay.html">
     <div>
         <h1>LOGIN</h1>
         <input type="name" id="name" placeholder="Nome" name="nome" required>
         <br><br>
         <input type="email" id="email" placeholder="E-mail" name="email" required>
         <br><br>
-      <a href="adplay.html"><button>ENTRAR</button></a>
-      <p>Ainda não se cadastrou?<a href="cadastre-se.html">Clique aqui</a></p>
+        <button type="submit">ENTRAR</button>
+        <p>Ainda não se cadastrou? <a href="cadastre-se.html">Clique aqui</a></p>
     </div>
-    </form>
-</body>
-</html>
+</form>
