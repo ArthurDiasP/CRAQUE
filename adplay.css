@@ -22,7 +22,6 @@ body{
     background-color:#000;
 }
 
-
 .circle{
     position:absolute;
     top:0;
@@ -62,15 +61,15 @@ body{
 .navigation ul{
     display:flex;
     align-items:center;
-    gap:1.5rem
+    gap:2.5rem
 }
 
 .navigation ul li a{
     color:var(--dark);
-    font-size:18px;
-    font-weight:700;
+font-size: 20px;
+    font-weight:800;
     transition:all .5s;
-    color:#152349
+    color:#152349;
 }
 
 .navigation ul li a:hover{
@@ -169,13 +168,6 @@ body{
   transform:translate(-435%, 190%);
   border-radius: 10%;
 }
-
-
-material-symbols-outlined{
- width:85px
-
-}
-
 
 
 
