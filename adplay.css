@@ -71,7 +71,7 @@ color: #042d96
 }
 
 .navigation ul li a{
-    color:var(--dark);
+    color:var(--red);
 font-size: 20px;
     font-weight:800;
     transition:all .5s;
