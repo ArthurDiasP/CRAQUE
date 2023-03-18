@@ -11,8 +11,9 @@
 }
 
 
-:root{--red:#152349;
-    
+:root{
+
+--red: #042d96 ;
     --white:#22bea4;
     --dark:hwb(223 65% 28%)
 }
