@@ -298,34 +298,30 @@ font-size: 20px;
   }
   
   .boxImg .img3{
-    transform:rotate(0deg);
     width:200px;
-    transform:translate(-50%, -134%);
+    margin: 0 auto;
     border-radius: 10%;
     position:absolute;
   }
   
   .boxImg .img4{
-    transform:rotate(0deg);
     width:200px;
-    transform:translate(-50%, -104%);
+    margin: 0 auto;
     border-radius: 10%;
     position: absolute;
   }
 
 
 .boxImg .img5{
-    transform:rotate(0deg);
     width:200px;
-    transform:translate(-50%, -74%);
+    margin: 0 auto;
     border-radius: 10%;
     position: absolute;
   }
 
 .boxImg .img6{
-  transform:rotate(0deg);
-  width:180px;
-  transform:translate(-50%, -44%);
+  width:200px;
+margin: 0 auto;
   border-radius: 5%;
 }
 
