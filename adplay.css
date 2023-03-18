@@ -22,6 +22,10 @@ body{
     background-color:#000;
 }
 
+material-symbols-outlined {
+color: #042d96
+}
+
 
 .circle{
     position:absolute;
