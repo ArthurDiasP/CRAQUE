@@ -183,6 +183,13 @@ font-size: 20px;
   border-radius: 5%;
 }
 
+.boxImg .img6{
+  transform:rotate(0deg);
+  width:180px;
+  transform:translate(-435%, 150%);
+  border-radius: 5%;
+}
+
 
 
 
@@ -294,7 +301,7 @@ font-size: 20px;
   .boxImg .img3{
     transform:rotate(0deg);
     width:200px;
-    transform:translate(-50%, -133%);
+    transform:translate(-50%, -134%);
     border-radius: 10%;
     position:absolute;
   }
@@ -302,7 +309,7 @@ font-size: 20px;
   .boxImg .img4{
     transform:rotate(0deg);
     width:200px;
-    transform:translate(-50%, -70%);
+    transform:translate(-50%, -104%);
     border-radius: 10%;
     position: absolute;
   }
@@ -311,10 +318,17 @@ font-size: 20px;
 .boxImg .img5{
     transform:rotate(0deg);
     width:200px;
-    transform:translate(-50%, -20%);
+    transform:translate(-50%, -74%);
     border-radius: 10%;
     position: absolute;
   }
+
+.boxImg .img6{
+  transform:rotate(0deg);
+  width:180px;
+  transform:translate(-50%, -44%);
+  border-radius: 5%;
+}
 
   }
 
@@ -448,6 +462,12 @@ font-size: 20px;
   position: absolute;
 }
 
+.boxImg .img6{
+  transform:rotate(0deg);
+  width:180px;
+  transform:translate(-435%, 190%);
+  border-radius: 5%;
+}
 
 }
 
