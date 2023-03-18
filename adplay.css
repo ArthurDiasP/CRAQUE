@@ -302,7 +302,7 @@ font-size: 20px;
   .boxImg .img4{
     transform:rotate(0deg);
     width:200px;
-    transform:translate(-50%, -140%);
+    transform:translate(-50%, -180%);
     border-radius: 10%;
     position: absolute;
   }
@@ -311,7 +311,7 @@ font-size: 20px;
 .boxImg .img5{
     transform:rotate(0deg);
     width:200px;
-    transform:translate(-50%, -160%);
+    transform:translate(-50%, -220%);
     border-radius: 10%;
     position: absolute;
   }
